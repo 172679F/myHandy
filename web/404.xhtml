@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:body>
+    <ui:composition template="templates/template.xhtml">
+        <ui:define name="head">
+            <title>404 Error</title>
+        </ui:define>
+        <ui:define name="content">
+            <div class="container text-center">
+                <div class="logo-404">
+                    <a href="index.html"><h:graphicImage library="images" name="/home/logo.png" alt="" /></a>
+                </div>
+                <div class="content-404">
+                    <h:graphicImage library="images" name="/404/404.png" class="img-responsive" alt="" />
+                    <h1><b>OPPS!</b> We Couldn’t Find this Page</h1>
+                    <p>Uh... So it looks like you brock something. The page you are looking for has up and Vanished.</p>
+                    <h2><a href="index.html">Bring me back Home</a></h2>
+                </div>
+            </div>
+        </ui:define>
+    </ui:composition>
+</h:body>
+</html>
